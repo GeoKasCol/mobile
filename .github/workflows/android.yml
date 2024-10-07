@@ -48,7 +48,7 @@ jobs:
       - name: Select latest Xcode
         run: "sudo xcode-select -s /Applications/Xcode.app"
 
-      # CCache
+      # CCache x
       - name: Prepare build cache for pull request
         uses: pat-s/always-upload-cache@v3.0.11
         if: github.event_name == 'pull_request'
