@@ -240,8 +240,8 @@ jobs:
               -DCMAKE_BUILD_TYPE=Release \
               -DQT_ANDROID_ABIS="arm64-v8a;armeabi-v7a" \
               -DQT_HOST_PATH=$QT_BASE/macos \
-              -DQT_ANDROID_SIGN_APK=Yes \
-              -DQT_ANDROID_SIGN_AAB=Yes \
+              -DQT_ANDROID_SIGN_APK=No \
+              -DQT_ANDROID_SIGN_AAB=No \
               -DUSE_MM_SERVER_API_KEY=Yes \
               -DCMAKE_TOOLCHAIN_FILE=$QT_BASE/android_arm64_v8a/lib/cmake/Qt6/qt.toolchain.cmake \
               -GNinja \
