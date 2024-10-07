@@ -33,7 +33,7 @@ jobs:
       SDK_BUILD_TOOLS: 34.0.0
       INPUT_SDK_VERSION_ARM: arm-android-20240517-224
       INPUT_SDK_VERSION_ARM64: arm64-android-20240517-224
-      CCACHE_DIR: /Users/runner/work/ccache
+      CCACHE_DIR: /Users/bitexploiter/Develop/actions-runner/_work/ccache
       GITHUB_TOKEN: ${{ secrets.INPUTAPP_BOT_GITHUB_TOKEN }}
       CACHE_VERSION: 0
       CMAKE_VERSION: '3.29.0'
