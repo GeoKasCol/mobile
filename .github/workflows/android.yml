@@ -242,7 +242,7 @@ jobs:
               -DQT_HOST_PATH=$QT_BASE/macos \
               -DQT_ANDROID_SIGN_APK=No \
               -DQT_ANDROID_SIGN_AAB=No \
-              -DUSE_MM_SERVER_API_KEY=Yes \
+              -DUSE_MM_SERVER_API_KEY=FALSE \
               -DCMAKE_TOOLCHAIN_FILE=$QT_BASE/android_arm64_v8a/lib/cmake/Qt6/qt.toolchain.cmake \
               -GNinja \
               -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
